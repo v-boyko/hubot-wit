@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:pokonski/hubot-wit.git"
+    "url": "git@github.com:v-boyko/hubot-wit.git"
   },
   "keywords": [
     "hubot",
@@ -18,16 +18,17 @@
     "natural",
     "language"
   ],
-  "author": "Piotr Okoński",
+  "author": "Viacheslav Boiko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pokonski/hubot-wit/issues"
+    "url": "https://github.com/v-boyko/hubot-wit/issues"
   },
   "dependencies": {
-    "coffee-script": "~1.6"
+    "rsvp": "~1.2.0",
+    "node-wit": "~2.0.0"
   },
   "peerDependencies": {
     "hubot": "2.x"
   },
-  "homepage": "https://github.com/pokonski/hubot-wit"
+  "homepage": "https://github.com/v-boyko/hubot-wit"
 }
