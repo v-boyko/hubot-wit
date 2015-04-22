@@ -1,8 +1,7 @@
 console.log "index.coffee"
 fs = require 'fs'
 path = require 'path'
-Glue = require './src/glue'
-Wit = require './src/wit'
+wit = require './src/wit'
 
 module.exports = (robot, scripts) ->
   scriptsPath = path.resolve(__dirname, 'src')
@@ -14,4 +13,4 @@ module.exports = (robot, scripts) ->
         else
           robot.loadFile(scriptsPath, script)
 
-module.exports.Glue = Glue
+module.exports.wit = wit
